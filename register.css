@@ -1,0 +1,37 @@
+@font-face { font-family:OstrichSans ; src: url('OstrichSans-Heavy.otf'); } 
+@font-face { font-family:vagtur ; src: url('vagtur.otf'); } 
+@font-face {font-family:LeagueGothic ;src:url(LeagueGothic-Regular.otf);}
+body {
+	background: #1c1e1e;
+}
+.brand {
+	font-family: vagtur;
+	font-size: 30px;
+}
+/*.navtr.scrolled{
+	padding-top: 0px;
+	padding-bottom: 10px;
+	transition: margin 1s;
+}*/
+.navtr{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  transition: padding 200ms linear;
+}
+.navtr1{
+	padding-top: 0px;
+	padding-bottom: 10px; 
+  	transition: padding 200ms linear;
+}
+.head {
+	font-family: LeagueGothic;
+	font-size: 50px;
+}
+.head-text{
+	font-size: 25px;
+}
+
+.regi {
+	background-color: #c6c6c6;
+	color: black;
+}
